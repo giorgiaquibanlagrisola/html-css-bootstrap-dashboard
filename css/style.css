@@ -1,0 +1,11 @@
+:root {
+    --main-header-height: 50px;
+}
+
+#main-header {
+    height: var(--main-header-height)
+}
+
+#main-section {
+    height: calc(100vh - var(--main-header-height));
+}
